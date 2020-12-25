@@ -1,0 +1,90 @@
+body{ 
+  margin:0;
+ padding:0;
+ height:100%;
+ background-color: powderblue;
+ border: 1px solid black;
+}
+
+h1{
+ color:black;
+ text-align: center;
+ font-family:sans-serif;
+ margin:48px;
+ border-bottom: 2px solid black;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  color: black;
+}
+
+
+
+
+#wrapper {
+min-height:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#footer {
+font-family: arial;
+font-style: italic;
+font-size:0.7em;
+text-align: center;
+}
+#quote-box
+{
+display: flex;
+flex-direction: column;
+padding-bottom:0px;
+width: 450px;
+background-color: white;
+border-radius: 7px;
+text-align: center;
+padding: 10px;
+}
+#text {
+font-size: 1.4em;
+font-style: regular;
+font-family: sans-serif;
+}
+.authorbox {
+font: verdana;
+font-size: 0.5em;
+text-align: right;
+}
+#author {
+font-size: 11px;
+font-style: italic;
+}
+.button-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+}
+.quote-buttons {
+color: white;
+border-radius: 4px;
+background-color: black;
+font-size: 14px;
+padding: 5px;
+cursor: pointer;
+}
+
+#left-button {
+float: left;
+display: inline;
+width: 50%;
+text-align: left;
+}
+#right-button {
+float: right;
+display: inline;
+text-align: right;
+}
+

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="newquote()" align="center">
+    <div id="wrapper">
+        <h2>Welcome to 21st Century</h2>
+
+        <h1 align="center">Random Quote Generator</h1>
+
+        <div id="quote-box">
+
+            <div id="textbox">
+                <i class="fa fa-quote-left"></i>&nbsp;<span id="text">
+                </span>&nbsp;<i class="fa fa-quote-right"></i>
+            </div>
+
+            <div id="authorbox">
+                -- by&nbsp;<span id="author"></span>
+            </div>
+
+            <div class="button-container">
+                <div id="left-button">
+                    <a id='tweet-quote' href="https://twitter.com/intent/tweet" class="twitter-share-button">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div id="right-button">
+                    <a id="newquote" class="quote-buttons" onclick="newquote()">Next Quote</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="footer">
+            Created by Yasin Virani
+        </div>
+
+        <script type="text/javascript" src="index.js"></script>
+    </div>
+</body>
+
+</html>
